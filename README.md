@@ -7,6 +7,9 @@ API key, or paid inference service required.
 **Starter models:** `llama3.2:3b` and `qwen2.5:3b`. Candidates run sequentially and are
 unloaded between model blocks. Add `gemma3:4b` after establishing the first baseline.
 
+See the [measured development experiment](docs/development-experiment.md) for actual
+local run results, detected regressions, and scoring limitations found during inspection.
+
 ## Quick start on a Mac
 
 Use Python 3.11 or 3.12. Install [Ollama](https://ollama.com/download/mac) and launch it
